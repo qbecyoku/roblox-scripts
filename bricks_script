@@ -1,0 +1,8 @@
+while true do
+	wait(0.3)
+p=Instance.new("Part",game.Workspace)
+p.Size=Vector3.new(math.random(1,10),math.random(1,10),math.random(1,10))
+p.Position=Vector3.new((math.random(-50,50)),50,(math.random(-50,50)))
+p.Color=Color3.new(math.random(),math.random(),math.random())
+game.Debris:AddItem(p,10)	
+end
