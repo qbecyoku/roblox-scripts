@@ -1,3 +1,4 @@
+--random falling bricks, different sizes, pos, color
 while true do
 	wait(0.3)
 p=Instance.new("Part",game.Workspace)
